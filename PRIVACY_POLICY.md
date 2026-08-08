@@ -1,3 +1,8 @@
+---
+layout: default
+title: Driven Privacy Policy
+---
+
 # Driven Privacy Policy
 
 **Effective date:** August 8, 2026  

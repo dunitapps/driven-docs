@@ -1,3 +1,8 @@
+---
+layout: default
+title: Driven Terms of Service
+---
+
 # Driven Terms of Service
 
 **Effective date:** August 8, 2026  
