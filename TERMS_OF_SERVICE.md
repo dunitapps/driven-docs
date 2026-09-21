@@ -5,9 +5,9 @@ title: Driven Terms of Service
 
 # Driven Terms of Service
 
-**Effective date:** August 8, 2026  
-**Last updated:** August 8, 2026  
-**Version:** 1.0
+**Effective date:** September 21, 2026  
+**Last updated:** September 21, 2026  
+**Version:** 1.1
 
 These Terms of Service (the **“Terms”**) govern use of the Driven iOS application (the **“App”**), bundle identifier `com.dunit.cardash`, and any App features or support supplied by:
 
@@ -52,11 +52,12 @@ Depending on device, region, permissions, Apple services, connectivity, subscrip
 - Apple Music library, catalog, recommendations, search, artwork, queue, and playback controls;
 - local Contacts display and initiation of calls through the system Phone app;
 - local display of upcoming Calendar events;
+- optional dashcam recording of the road ahead, with a recording loop, saved clips, and export;
 - preset and user-selected wallpaper images;
 - settings, saved and recent places, and local restoration of navigation state; and
 - free and paid features described in the App at the time of use.
 
-Feature descriptions are not promises that a feature will be available in every location, language, road, device, or situation. The App is a general consumer convenience tool and is not an official traffic service, emergency service, vehicle component, calibrated instrument, enforcement detector, or substitute for attention and judgment.
+Feature descriptions are not promises that a feature will be available in every location, language, road, device, or situation. The App is a general consumer convenience tool and is not an official traffic service, emergency service, vehicle component, calibrated instrument, enforcement detector, evidentiary recorder, or substitute for attention and judgment.
 
 ## 4. Safety rules: read before driving
 
@@ -99,7 +100,7 @@ Always follow the limit that actually applies under posted signs and current law
 
 ## 7. Speed-camera data and alerts can be missing or false
 
-Speed-camera information is derived from community-maintained OpenStreetMap data and public Overpass API results. It is not supplied or certified by police, courts, road authorities, camera operators, or measurement laboratories.
+Speed-camera information is derived from community-maintained OpenStreetMap data, served by a road-data backend the developer operates. It is not supplied or certified by police, courts, road authorities, camera operators, or measurement laboratories.
 
 The App can fail to warn about a fixed, mobile, temporary, average-speed, red-light, multi-directional, newly installed, moved, hidden, inactive, or otherwise enforced location. It can also warn about a removed, inactive, duplicate, incorrectly mapped, distant, opposite-direction, parallel-road, or irrelevant camera. An alert can be early, late, repeated, suppressed, or absent because of route matching, direction, speed, GPS accuracy, cached data, network failure, server limits, App state, subscription state, or software defects. Each camera may be alerted only once during a route session.
 
@@ -130,47 +131,73 @@ Rerouting can be delayed or unavailable. Saved and recent places can be outdated
 
 The App's keep-screen-awake option can increase battery use, heat, data use, screen wear, and image retention. The user is responsible for a safe power arrangement and device temperature.
 
-## 10. Permissions, connectivity, and equipment
+## 10. Dashcam recording
+
+Driven can use the device camera as a dashcam, recording the road ahead while you drive. Dashcam recording is part of the paid Driven Pro feature set described in Section 13, so it is available only while paid access applies. Recording is optional, produces video only, and captures no audio; the App never requests microphone access. Recording runs only after you start it, or automatically when you enable that setting, and never while the App is in the background.
+
+**The dashcam is a convenience feature, not a safety system, a witness, or an evidentiary instrument.** We do not warrant that any recording will start, continue, capture a particular moment, survive on the device, be accurate as to time or location, be of usable quality, be accepted by any insurer, police force, court, or tribunal, or support any claim or defence.
+
+Recording can fail, pause, drop frames, lower its quality, or stop entirely without warning. Causes include device heat and thermal throttling, low or exhausted storage, low battery or Low Power Mode, an incoming call, another app taking the camera, the App moving to the background or being closed by iOS, a lens or sensor fault, a software defect, an iOS update, or the device being unmounted, obscured, or powered off. To manage heat, Driven deliberately reduces frame rate and then resolution while recording, so quality can fall mid-drive.
+
+Footage quality varies with light, weather, glare, oncoming headlights, rain, dirt, tint, reflections, windscreen condition, mounting, and vehicle vibration. Number plates, faces, road signs, and details are frequently unreadable, especially at night, at distance, or at speed. Do not assume a recording will show what you remember seeing.
+
+**Recording loops, and old footage is deleted automatically.** The loop keeps only the most recent footage for the length you choose, and older segments are deleted without notice as recording continues. If a recording matters to you, save or export it immediately; otherwise it will be overwritten. Where event detection is offered, it can miss a real event entirely or trigger on ordinary driving, and it is not a substitute for saving a clip yourself.
+
+Recordings consume substantial storage — roughly 45 MB per minute at the default quality, so a 30-minute loop is about 1.35 GB. Driven tries to keep free space in reserve and will shorten what it keeps rather than fill the device, but managing storage remains yours. Recordings are excluded from device backup, so restoring or replacing a device does not restore them, and deleting the App deletes them. Continuous recording also increases battery use, heat, and wear on the device.
+
+### 10.1 Your legal responsibility for recording
+
+Dashcam use is not lawful everywhere, and the rules differ widely. Some countries, states, provinces, and localities restrict or prohibit recording on public roads, filming other people or vehicles, recording audio, retaining or sharing footage, or mounting a device where it obstructs the driver's view. Requirements can differ for residents, visitors, commercial drivers, ride-hail and taxi operators, fleet vehicles, and cross-border travel, and they change over time.
+
+Driven's availability in an App Store region is not a representation that dashcam recording, retention, or sharing is lawful there, in your vehicle, or in your circumstances. Before recording, and before travelling, you must check the current law for every relevant jurisdiction and stop recording wherever it is restricted.
+
+Footage you record can contain personal data about other people, including their vehicles, number plates, faces, movements, and locations. **You, not the developer, decide to record and what happens to the recording afterwards.** Under data-protection law such as the GDPR and the UK GDPR, that can make you the controller of that footage, with your own obligations, particularly if you publish, upload, broadcast, or otherwise share it. The developer has no access to your recordings and cannot answer a request about them on your behalf.
+
+You must not use the dashcam to harass, intimidate, stalk, ambush, or covertly monitor any person; to record inside premises, private property, or another person's vehicle without a lawful basis; to monitor employees, passengers, or family members where that is unlawful; or for any other unlawful surveillance. You must not operate the App, review recordings, or interact with the camera while driving. Mount the device lawfully and safely, in line with Section 4.
+
+We may change, limit, disable, or remove dashcam features, in any region or entirely, without advance notice, where reasonably necessary for law, safety, platform compliance, or the operation of the App.
+
+## 11. Permissions, connectivity, and equipment
 
 Some features require a compatible Apple device, supported iOS version, Location Services and precise location, internet access, Apple Maps, an Apple Account, Apple Music eligibility, Contacts or Calendar permission, photo selection, StoreKit, and RevenueCat. Permission can be declined or revoked, but the affected feature may be unavailable.
 
 The user is responsible for the device, mounting, mobile plan, roaming, carrier fees, Apple Account, vehicle equipment, power, updates, backups, and physical security. The App is not guaranteed to work offline. Public APIs may rate-limit, reject, or delay requests. Continued background operation is not promised.
 
-## 11. Road-data privacy choice
+## 12. Road-data privacy choice
 
-If Road Data Lookups is enabled, Driven sends a grid-based nearby area or sampled route coordinates to public Overpass services as detailed in the Privacy Policy. An active-route query can reveal the roads traveled and infer an approximate origin or destination. Requests also expose ordinary network metadata such as an IP address and App User-Agent.
+If Road Data Lookups is enabled, Driven sends a grid-based nearby area or sampled route coordinates to the developer's road-data backend as detailed in the Privacy Policy. An active-route query can reveal the roads traveled and infer an approximate origin or destination. Requests also expose ordinary network metadata such as an IP address and App User-Agent.
 
 Road Data Lookups can be disabled in the App's privacy settings. Doing so disables both road speed-limit lookup and speed-camera data transfer. The setting does not stop Apple Maps processing needed for maps, searches, routes, or navigation.
 
-Road-data features are part of the paid feature set described in Section 12, so these requests are normally sent only while paid access applies. Shortly after launch, before subscription status has been confirmed, the App treats access as granted so a subscriber is not cut off mid-drive, and a request can be sent before that check completes. Turning Road Data Lookups off prevents the request in every case.
+Road-data features are part of the paid feature set described in Section 13, so these requests are normally sent only while paid access applies. Shortly after launch, before subscription status has been confirmed, the App treats access as granted so a subscriber is not cut off mid-drive, and a request can be sent before that check completes. Turning Road Data Lookups off prevents the request in every case.
 
-## 12. Subscriptions, billing, renewal, and cancellation
+## 13. Subscriptions, billing, renewal, and cancellation
 
-Driven may offer free features and an automatically renewing **Driven Pro** subscription. The paid feature set can include navigation, road alerts, a 3D map presentation, custom wallpapers, or other features identified as paid in the App. The exact offering, billing period, localized price, taxes, currency, introductory offer, trial if any, and eligibility are shown before purchase. The Apple purchase confirmation controls if it conflicts with marketing copy.
+Driven may offer free features and an automatically renewing **Driven Pro** subscription. The paid feature set can include navigation, road alerts, dashcam recording, a 3D map presentation, custom wallpapers, or other features identified as paid in the App. The exact offering, billing period, localized price, taxes, currency, introductory offer, trial if any, and eligibility are shown before purchase. The Apple purchase confirmation controls if it conflicts with marketing copy.
 
-### 12.1 Apple billing
+### 13.1 Apple billing
 
 Purchases are processed by Apple through the App Store and charged to the Apple Account confirmed at purchase. We do not collect full payment-card information. Apple controls payment authorization, tax collection where applicable, billing retries, family or account rules, receipts, and store availability.
 
-### 12.2 Automatic renewal
+### 13.2 Automatic renewal
 
 Unless the purchase screen says otherwise, a subscription automatically renews for the same period until canceled. Apple may charge the account within the period stated in its current terms, generally within 24 hours before renewal. To avoid the next charge, cancel within the time Apple shows, generally at least 24 hours before the current period or trial ends.
 
 Manage or cancel through the subscription settings for the Apple Account. Deleting the App does **not** cancel a subscription. Cancellation normally takes effect at the end of the already-paid period unless Apple or mandatory law states otherwise.
 
-### 12.3 Trials and promotional offers
+### 13.3 Trials and promotional offers
 
 There is no trial unless one is expressly shown in the Apple purchase interface. Any trial or introductory price is subject to Apple's eligibility rules, duration, conversion price, and cancellation terms shown before confirmation. If an offer changes or the user is ineligible, the Apple confirmation screen is authoritative and should be canceled before purchase if unacceptable.
 
-### 12.4 Price changes
+### 13.4 Price changes
 
 Prices may change prospectively. Apple will provide notice and obtain consent when required by its rules or law. If required consent is not given, the subscription may not renew. A price change does not remove rights already accrued under mandatory law.
 
-### 12.5 Access and restoration
+### 13.5 Access and restoration
 
 RevenueCat is used to validate receipts and determine entitlement access. A short local entitlement cache may preserve access during a temporary outage, but paid access can be delayed when Apple or RevenueCat is unavailable or when a receipt is invalid, refunded, revoked, expired, transferred, or associated with another Apple Account. Use **Restore Purchases** or the App's subscription-management interface where available. Contact support if a valid purchase is not restored.
 
-### 12.6 Refunds, withdrawal, and consumer remedies
+### 13.6 Refunds, withdrawal, and consumer remedies
 
 Refund requests for App Store transactions should ordinarily be submitted through Apple's current refund channel. Apple makes the platform payment decision, but nothing in these Terms excludes a statutory right to withdraw, cancel, obtain a price reduction, receive a conforming digital service, terminate for nonconformity, or obtain another mandatory consumer remedy. A withdrawal right for digital content or a digital service supplied immediately is lost only where the conditions set by the applicable law are actually met, which ordinarily requires the consumer's express prior consent to immediate supply together with an acknowledgement that the right is lost as a result. The App Store purchase flow does not collect that consent and acknowledgement on our behalf. A consumer should therefore assume the statutory withdrawal period continues to run unless the purchase screen clearly stated otherwise at the time of purchase.
 
@@ -178,14 +205,15 @@ Where Serbian distance-contract law applies, the statutory withdrawal period is 
 
 Contact [contact@dunitapps.com](mailto:contact@dunitapps.com) if the issue concerns App functionality or a remedy that Apple cannot provide. Except where Apple policy or mandatory law provides otherwise, there is no promise of a refund or credit for a partially used billing period, failure to cancel on time, loss of connectivity, disabled permission, device incompatibility disclosed before purchase, traffic fine, or dissatisfaction with third-party data.
 
-## 13. License and acceptable use
+## 14. License and acceptable use
 
 Subject to these Terms, the Apple Standard EULA, and the App Store Usage Rules, we grant a personal, limited, revocable, non-exclusive, non-transferable license to use the App on compatible Apple-branded devices you own or control.
 
 You must not, and must not help another person to:
 
 - use the App unlawfully, dangerously, fraudulently, to facilitate speeding, or to evade lawful enforcement;
-- abuse, overload, scrape, benchmark abusively, interfere with, or bypass limits of Apple, RevenueCat, OpenStreetMap, Overpass, or another service;
+- abuse, overload, scrape, benchmark abusively, interfere with, or bypass limits of Apple, RevenueCat, OpenStreetMap, the Driven road-data backend, or another service;
+- record, retain, publish, or share dashcam footage unlawfully, or use it to harass, stalk, or covertly monitor anyone;
 - gain unauthorized access, introduce malware, probe security without written authorization, or disrupt users or infrastructure;
 - copy, sell, rent, sublicense, redistribute, modify, reverse engineer, decompile, or derive source code except to the limited extent the restriction is prohibited by law or an applicable open-source license;
 - remove or obscure proprietary, safety, copyright, license, or attribution notices;
@@ -195,21 +223,21 @@ You must not, and must not help another person to:
 
 Open-source components and OpenStreetMap data remain subject to their own licenses. Public availability of source code, if any, grants only the rights stated in the license accompanying that code.
 
-## 14. Intellectual property and data attribution
+## 15. Intellectual property and data attribution
 
 Except for third-party and open-source materials, Driven's software, design, text, graphics, organization, and branding are protected by applicable intellectual-property law. No right is granted to the Driven name, Dunit Apps identifiers, logos, or other marks except as necessary to use the App.
 
-Speed-camera and road speed-limit data contains information from **© OpenStreetMap contributors**, available under the [Open Data Commons Open Database License 1.0](https://opendatacommons.org/licenses/odbl/1-0/). See [OpenStreetMap copyright and attribution](https://www.openstreetmap.org/copyright). OpenStreetMap contributors, the OpenStreetMap Foundation, and Overpass operators do not endorse Driven and do not guarantee the data.
+Speed-camera and road speed-limit data contains information from **© OpenStreetMap contributors**, available under the [Open Data Commons Open Database License 1.0](https://opendatacommons.org/licenses/odbl/1-0/). See [OpenStreetMap copyright and attribution](https://www.openstreetmap.org/copyright). OpenStreetMap contributors and the OpenStreetMap Foundation do not endorse Driven and do not guarantee the data.
 
 Apple Maps and Apple Music materials are subject to Apple and applicable rights-holder terms. See the [Apple Maps Terms of Use](https://www.apple.com/legal/internet-services/maps/).
 
-## 15. Third-party and external services
+## 16. Third-party and external services
 
-The App depends on or links to services operated independently by Apple, RevenueCat, Private.coffee (including the `overpass.kumi.systems` domain), overpass-api.de operators, OpenStreetMap, carriers, artwork hosts, calendar providers, and other websites. Their terms, privacy notices, technical limits, licensing, and regional availability apply in addition to these Terms.
+The App depends on or links to services operated independently by Apple, RevenueCat, OpenStreetMap, carriers, artwork hosts, calendar providers, and other websites, and on the developer's own road-data backend together with the hosting and content-delivery providers behind it. Their terms, privacy notices, technical limits, licensing, and regional availability apply in addition to these Terms.
 
 We do not control and do not endorse every item returned by a map, catalog, public database, or linked site. To the maximum extent permitted by law, we are not responsible for independent content, acts, omissions, security, policy changes, outages, blocking, rate limits, or discontinuation. Use of a public or third-party service may be suspended if its operator changes or enforces its rules.
 
-## 16. Updates, availability, and changes to the service
+## 17. Updates, availability, and changes to the service
 
 We may issue updates to correct defects, improve security, maintain compatibility, comply with law or platform rules, change data providers, or add, alter, restrict, or remove features. The App may stop supporting old devices, iOS versions, providers, or regions. Security and legal updates may be necessary for continued use.
 
@@ -217,7 +245,7 @@ We may suspend a feature or the App when reasonably necessary because of a secur
 
 No App, network, public API, GPS service, map, media catalog, purchase system, or software update is guaranteed to be uninterrupted, timely, secure, or error-free.
 
-## 17. Disclaimer of warranties
+## 18. Disclaimer of warranties
 
 The following applies only to the maximum extent permitted by law.
 
@@ -227,7 +255,7 @@ WE DO NOT WARRANT THAT ANY DISPLAYED SPEED IS ACCURATE; THAT ANY SPEED LIMIT OR 
 
 No statement outside an express written commitment creates a guarantee. Some jurisdictions do not permit certain exclusions, so applicable statutory warranties and digital-service conformity duties remain in effect.
 
-## 18. Limitation of liability
+## 19. Limitation of liability
 
 The following limits apply only to the maximum extent permitted by law.
 
@@ -239,11 +267,11 @@ For a claim to which a lawful financial cap may be applied, our total aggregate 
 
 Nothing in these Terms excludes or limits liability that cannot lawfully be excluded or limited, including liability for intentional misconduct, fraud, gross negligence where applicable, death or personal injury caused by negligence where a restriction is prohibited, or mandatory consumer rights. If a jurisdiction does not allow a stated exclusion or cap, it applies only to the extent lawful, and liability is limited to the minimum permitted by law.
 
-## 19. Business-user responsibility and indemnity
+## 20. Business-user responsibility and indemnity
 
 This section applies only if you use the App primarily for a trade, business, craft, or profession and only to the extent permitted by law. You will defend and indemnify us against a third-party claim, penalty, or reasonable cost caused by your unlawful or dangerous use, your infringement or user-selected content, your abuse of a third-party service, or your material breach of these Terms, except to the extent caused by our own fault. This section does not apply to a consumer acting outside a business activity.
 
-## 20. Suspension and termination
+## 21. Suspension and termination
 
 You may stop using the App at any time. Removing the App does not cancel an Apple subscription; cancellation must be completed through Apple.
 
@@ -251,7 +279,7 @@ We may suspend or terminate access to the extent technically available if you ma
 
 On termination, the license ends, but provisions concerning safety, accrued payments, intellectual property, disclaimers, liability, disputes, and other terms that by nature should survive will remain effective. Mandatory rights and remedies survive.
 
-## 21. Consumer complaints and dispute resolution
+## 22. Consumer complaints and dispute resolution
 
 For an App functionality, subscription-access, privacy, or consumer complaint, email [contact@dunitapps.com](mailto:contact@dunitapps.com) with:
 
@@ -265,7 +293,7 @@ We will acknowledge and respond within the period required by applicable law. Ap
 
 A Serbian consumer who first submitted a complaint to us and remains dissatisfied may seek available out-of-court consumer dispute resolution through the [Serbian Ministry's ADR platform](https://vansudsko.must.gov.rs/) or another competent body. Participation, procedure, and binding effect are governed by current Serbian law. Consumers elsewhere may use the competent court, regulator, or dispute-resolution body available under their mandatory local law. These Terms do not impose private arbitration or waive a right to bring a claim before a competent court or authority.
 
-## 22. Governing law and courts
+## 23. Governing law and courts
 
 These Terms and the relationship with Driven are governed by the laws of the Republic of Serbia, without applying conflict-of-law rules that would defeat this choice.
 
@@ -273,7 +301,7 @@ If you are a consumer, this choice does not deprive you of mandatory protections
 
 The Apple Standard EULA and Apple terms separately determine governing law and forum for the user's relationship with Apple.
 
-## 23. Apple-specific acknowledgments
+## 24. Apple-specific acknowledgments
 
 As between Apple and us, we—not Apple—are responsible for the App and developer-provided support, subject to these Terms and applicable law. Apple has no obligation to provide maintenance or support for Driven. Questions about the App should be directed to [contact@dunitapps.com](mailto:contact@dunitapps.com); questions about the App Store, Apple Account, billing platform, or Apple services may also need to be directed to Apple.
 
@@ -283,13 +311,13 @@ To the extent required by the App Store terms, Apple and its subsidiaries are in
 
 You must comply with applicable third-party terms when using the App, including Apple Media Services, Apple Maps, Apple Music, carrier, and data-provider terms. You also represent that your download and use comply with applicable United States export-control and sanctions law and the law where the App was obtained, as required by the Apple Standard EULA.
 
-## 24. Changes to these Terms
+## 25. Changes to these Terms
 
 We may update these Terms for changes to the App, providers, subscriptions, law, security, or business operations. The effective date and version will be changed. Material changes will be communicated through the App, App Store listing, policy page, email if available, or another reasonable method where required.
 
 A change will apply prospectively. If law requires express consent for a material change, the change will not bind the user without that consent. If a user rejects a change, the available remedy may be to stop using the affected service and cancel future renewal, without limiting statutory rights concerning an existing paid period.
 
-## 25. General terms
+## 26. General terms
 
 - **Entire agreement:** These Terms including Annex A, the Privacy Policy, the Apple Standard EULA, purchase disclosures, and mandatory third-party terms form the applicable agreement for the App. A purchase screen controls the specific price and billing period.
 - **Severability:** If a provision is invalid or unenforceable, it will be limited or removed only as necessary, and the remaining provisions continue.
@@ -299,7 +327,7 @@ A change will apply prospectively. If law requires express consent for a materia
 - **Force majeure:** Except for obligations that cannot be excused by law, neither party is responsible for delay caused by events beyond reasonable control, including network, satellite, public API, platform, government, disaster, war, labor, or infrastructure events.
 - **Headings:** Headings are for readability and do not change meaning.
 
-## 26. Contact
+## 27. Contact
 
 Questions about these Terms may be sent to:
 

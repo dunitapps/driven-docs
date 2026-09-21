@@ -13,4 +13,4 @@ Public legal documents for the Driven iOS app (`com.dunit.cardash`).
 **Controller:** Ilija Ivkovic, private individual, Belgrade, Republic of Serbia  
 **Contact:** [contact@dunitapps.com](mailto:contact@dunitapps.com)
 
-These documents are effective August 8, 2026.
+These documents are effective September 21, 2026.
